@@ -1,10 +1,13 @@
-﻿namespace ClubeDaLeituraFinal
+﻿using CubeDaLeituraFinal.Compartilhado;
+
+namespace CubeDaLeituraFinal
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TelaBase tela = new TelaBase();
+            tela.MenuPrincipal();
         }
     }
 }
